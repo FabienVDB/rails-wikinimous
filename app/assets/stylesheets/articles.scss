@@ -1,0 +1,79 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Space+Mono&display=swap');
+// @import "bootstrap-sprockets";
+// @import "bootstrap";
+
+article {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 120%;
+}
+
+article img {
+  max-width: 100%;
+}
+
+article h1, article h2, article h3, article h4, article h5, article h6 {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
+
+article i {
+  font-size: 20px;
+}
+
+.header {
+  background-color: #F8F8F8;
+}
+
+.header a {
+  color: #777;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header a:hover {
+  color: #444;
+  text-decoration: none;
+}
+
+// body {
+//   font-family: 'Roboto';
+// }
+
+// h1 {
+//   font-size: 40px;
+// }
+
+// li {
+//   list-style: none;
+// }
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+// .header {
+//   display: flex;
+//   justify-content: space-between;
+// }
+
+// .details {
+//   background-color: #F1F3EE;
+//   padding: 20px 20px;
+// }
+
+// .checked {
+//   display: flex;
+//   justify-content: flex-start;
+// }
+
+// .fa-square-check, .fa-square {
+//   color: #0069D9;
+// }
